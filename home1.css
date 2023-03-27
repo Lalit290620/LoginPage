@@ -1,0 +1,109 @@
+*{
+    align-items: center;
+    text-align: center;
+}
+
+body{
+     background-color: #aaa535;
+}
+
+header{
+    height: 38px;
+    width: auto;
+    background-color: black;
+    border: solid;
+    border-radius: 10px;
+}
+
+ol,li,ul,a{
+    list-style: none;
+    float: left;
+    color: white;
+    margin: 1px;
+    padding: 2px;
+}
+
+#a1,#a2,#a3,#a4{
+    text-align: right;
+}
+
+
+#a1:hover,#a2:hover,#a3:hover,#a4:hover{
+    background-color: #aaa535;
+    border-radius: 10px;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 5px 2px 5px 2px;
+}
+
+#log,#pass{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    text-align: center;
+    margin: auto;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    box-shadow: 4px 4px black;
+}
+
+#log1,#pass1{
+    text-align: left;
+    border-color: transparent;
+    border-radius: 2px;
+}
+
+#log1:hover,#pass1:hover{
+    border-color: black;
+    border-radius: 2px;
+}
+
+#suc,#reg{
+    width: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+}
+
+div{
+    background-color: #9b8acde8;
+    border: solid;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+#forgot{
+    
+    float: initial;
+    color: blue;
+}
+
+#forgot:hover{
+    color: red;
+}
+
+#suc:hover,#reg:hover{
+   background-color: aquamarine;
+}
+
+#lgbtn,#rbtn{
+    color: black;
+    text-align: center;
+    align-self: auto;
+}
+
+#check{
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+#show{
+    margin: 10px 10px 10px px;
+}

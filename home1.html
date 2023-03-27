@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official TechAcid!</title>
+   <script src="jquery-3.6.0.min.js"></script>
+    <script src="valid.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="home.css">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="" id="a1">Home</a></li>
+                <li><a href="" id="a2">Alluminia</a></li>
+                <li><a href="" id="a3">About</a></li>
+                <li><a href="" id="a4">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <h1>Login/Registration</h1>
+     <br>
+    <div class="container">
+        <form action="" method="post">
+        <label for="lg" id="log">Login ID</label><br>
+        <input type="text" id="log1" placeholder="Enter UserID" required><br><br>
+        <label for="" id="pass" >Password</label><br>
+        <input type="password" id="pass1" name="pass" placeholder="Enter Password" maxlength="6" onclick="validation();" required><br><br>
+        <button id="suc" onclick="passLength();"><a href="" id="lgbtn">Login</a></button>
+        <button id="reg"><a href="regis1.html" id="rbtn" >Register</a></button>
+        <br>
+        <input id="check" type="checkbox" onclick="showPass();"> 
+        <label id="show" for="check">Show Password</label>
+    </form>
+        <br>
+        <a href="" id="forgot">forgot password?</a>
+    </div>
+    
+</body>
+</html>
